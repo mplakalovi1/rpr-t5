@@ -13,6 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("digitron.fxml"));
         primaryStage.setTitle("Digitron");
         primaryStage.setScene(new Scene(root, 200, 275));
+        primaryStage.setResizable(true);
         primaryStage.show();
     }
 
